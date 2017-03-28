@@ -1,11 +1,9 @@
-import { async, ComponentFixture, fakeAsync, TestBed, tick
-} from '@angular/core/testing';
+import { async, ComponentFixture, fakeAsync, TestBed, tick} from '@angular/core/testing';
 
 import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { addMatchers, newEvent, Router, RouterStub
-} from '../../testing';
+import { addMatchers, newEvent, Router, RouterStub} from '../../testing';
 
 import { HEROES, FakeHeroService } from '../model/testing';
 
